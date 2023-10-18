@@ -1,4 +1,4 @@
-# 数据容器
+# data-source
 name_list = ["123", 1, 3, True]
 # print(name_list)
 # print(type(name_list))
