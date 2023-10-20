@@ -15,7 +15,7 @@
     with open("文件路径", "r") as f
         f.
 """
-f = open("D:/python/python-learn/data-source/06-容器的通用操作.py", "r", encoding="UTF-8")
+f = open("/data-source/06_容器的通用操作.py", "r", encoding="UTF-8")
 print(f.read(10))
 print(f.read())
 print(type(f.readlines()))
