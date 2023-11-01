@@ -11,7 +11,6 @@ def login() -> None:
 
     # 打开被测程序
     _driver = webdriver.Chrome()
-    _driver = webdriver.Chrome()
     _driver.get(url_login)
 
     # 导入测试数据（登录）
