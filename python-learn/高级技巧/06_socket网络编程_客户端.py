@@ -9,7 +9,7 @@ socket_client.connect(("localhost", 8888))
 while True:
     # 发送消息
     msg = input("请输入你要发送给服务端的消息： ")
-    if msg == "exit" | msg == "断开链接":
+    if msg == "exit" or msg == "断开链接":
         break
     socket_client.send(msg.encode("utf-8"))
     # 接收消息
