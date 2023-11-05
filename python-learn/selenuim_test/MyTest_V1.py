@@ -29,7 +29,7 @@ def login() -> None:
     # 执行操作（上传）
     url_upload = 'https://svr-6-9010.share.51env.net/upload'
     _driver.get(url_upload)
-    _driver.find_element(By.NAME, 'qqfile').send_keys("D:\\python\\python-learn\\ATM.py")
+    _driver.find_element(By.NAME, 'qqfile').send_keys("D:\\python\\python-learn\\selenuim_test\\csvATM.py")
 
     time.sleep(10000)
 

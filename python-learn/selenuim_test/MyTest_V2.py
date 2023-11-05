@@ -33,6 +33,7 @@ def login() -> None:
     for row in rows:
         # print(row[0])
         f_name = str(row[0])
+        # 没有对应文件，报错
         _driver.find_element(By.NAME, 'qqfile').send_keys("D:\\python\\python-learn\\" + f_name)
 
     time.sleep(10000)
