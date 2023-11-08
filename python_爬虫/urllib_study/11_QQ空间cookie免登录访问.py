@@ -1,5 +1,8 @@
 # https://user.qzone.qq.com/2628255714
+"""
+报错： 反爬手段太多
 
+"""
 import urllib.request
 
 url = 'https://user.qzone.qq.com/2628255714'
