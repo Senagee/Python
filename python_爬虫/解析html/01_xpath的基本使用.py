@@ -1,8 +1,8 @@
 """
 xpath的两种运用：（1）解析本地文件
-                tree = etree.xpath()
+                tree = etree.parse("文件路径")
                 （2）解析服务器响应文件    response.read().decode('utf8')
-                tree = etree.http()
+                tree = etree.HTML(content)
 基本语法：
         1.路径查询
             //：查询所有子孙节点，不考虑层级关系
@@ -26,4 +26,6 @@ xpath的两种运用：（1）解析本地文件
 
 from lxml import etree
 
-etree.HTML()
+tree = etree.parse("01_xpath测试.html")
+ul_list = tree.xpath('//ul/li/text()')
+print(ul_list)
